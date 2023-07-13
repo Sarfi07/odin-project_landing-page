@@ -15,7 +15,6 @@ body {
 }
 
 .main-div {
-    border: 2px solid red;
     flex: 1;
 }
 
@@ -94,6 +93,10 @@ body {
         border: none;
         margin-top: 16px;
     }
+    .signup:hover {
+        background-color: #2a323e;
+        color: #f9faf8;
+    }
 
 .random-info-section {
     display: flex;
@@ -110,7 +113,7 @@ body {
 
     .cards {
         display: flex;
-        padding: 16px 96px;
+        padding: 16px 160px;
         padding-bottom: 90px;
         gap: 32px;
 
@@ -119,12 +122,51 @@ body {
     .image-div {
         height: 180px;
         width: auto;
-        background-color: grey;
+        background-color: #f9faf8;
         border: 2px solid #3882f6;
         border-radius: 10px;
     }
 
 .quote-div {
     background-color: #e5e7eb;
-    padding: 
+    padding: 90px 160px;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1f2937;
+}
+
+    .quote-author {
+        text-align: right;
+
+    }
+
+.call2action {
+    background-color: #3882f6;
+    margin: 48px 96px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 180px;
+    border-radius: 15px;
+}
+
+
+    .call-main-text {
+        font-size: 24px;
+        font-weight: bolder;
+        padding-bottom: 8px;
+
+    }
+
+    .c2a-btn > .signup {
+        border: 2px solid #e5e7eb;
+    }
+
+ 
+.footer {
+    text-align: center;
+    padding: 16px 96px;
+    background-color: #1f2937;
+    color: #f9faf8;
 }
