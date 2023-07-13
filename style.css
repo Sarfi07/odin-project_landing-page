@@ -18,6 +18,12 @@ body {
     justify-content: center;
 }
 
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #1f2937
+}
+
 .main-div {
     flex: 1;
 }
@@ -47,9 +53,7 @@ body {
     }
 
     .header-links > ul > li > a {
-        text-decoration: none;
         color: #e5e7eb;
-        font-size: 18px;
     }
 
 .hero {
@@ -126,10 +130,18 @@ body {
         padding: 16px 160px;
         padding-bottom: 90px;
         gap: 32px;
+        flex-wrap: wrap;
 
     }
+    .card {
+        flex: 1;
+    }
+    .subtext-header {
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
     
-    .image-div {
+    .image-div > img {
         height: 180px;
         width: auto;
         background-color: #f9faf8;
